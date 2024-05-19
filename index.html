@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Andrii Kurochka</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Andrii Kurochka</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="jumbotron text-center bg-primary text-white">
+      <div class="container">
+        <h1 class="display-4">Hello, I'm Andrii Kurochka</h1>
+        <p class="lead">I'm a Software Developer and Scientist.</p>
+      </div>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="text-center">About Me</h2>
+        <p class="text-center">
+          I am a passionate software developer and scientist with experience in various programming languages and research
+          fields...
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+          <!-- Example Project Card -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="Images/Synuclein.gif" class="card-img-top" alt="Project Image" />
+              <div class="card-body">
+                <h5 class="card-title">Project Title</h5>
+                <p class="card-text">Brief description of the project...</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more project cards as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+      <div class="container">
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

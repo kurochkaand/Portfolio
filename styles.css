@@ -1,0 +1,18 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.jumbotron {
+  background: url("Images/bkg.jpg") center center / cover no-repeat;
+  color: #fff;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
