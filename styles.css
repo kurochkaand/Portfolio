@@ -16,3 +16,10 @@ footer {
   background-color: #343a40;
   color: #fff;
 }
+
+/*Navbar styles start here*/
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
